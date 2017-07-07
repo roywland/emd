@@ -1,0 +1,84 @@
+body, html
+            {
+                    margin:10px 10px 50px 25px;
+                    padding: 0; 
+                    height: 100%; 
+                    overflow: visible;
+            }
+
+
+
+#content
+            {
+                position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
+            }
+  
+.menu {
+      float:NONE;
+      width:20%;
+      height:100%;
+    }
+
+.mainContent {
+      float:none;
+      width:75%;
+      height:100%;
+
+    }
+
+
+* {
+      font-family: sans-serif; font-size:20px;
+    }
+    
+    
+* {
+    line-height: 175%;
+}
+
+.headlines {
+			   text-align: center ;
+               font-size:24pt; 
+               color:green;
+               font-weight:bold;
+               text-decoration:underline;
+               
+                }
+.headlinesp {
+			   text-align: center ;
+               font-size:24pt; 
+               color:purple;
+               font-weight:bold;
+               text-decoration:underline;
+               
+                }
+.headlinesr {
+			   text-align: center ;
+               font-size:24pt; 
+               color:red;
+               font-weight:bold;
+               text-decoration:underline;
+               
+                }
+
+
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: green;
+}
